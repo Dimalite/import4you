@@ -1,0 +1,20 @@
+Title:  Calculator Seafreight delete fields
+
+Precondition:
+Development UI/UX     http://167.172.110.178/ 
+I am Admin
+
+Description:	
+Удаление "Volumeweight" и "Belasbaar gewight"	Только для Водных перевозок!
+		
+Steps:	
+1Открыть Development UI/UX	 
+2Выбрать и кликнуть "kosten calculator"
+3Toggle "Luchtvracht" change "Zeevracht"	
+4Убедится, что "Volumeweight" и "Belasbaar gewight" удалены	
+
+Expected Result:
+1 Открыто UI/UX
+2 Калькулятор открыт
+3  "Zeevracht" is set
+4 "Volumeweight" и "Belasbaar gewight" удалены
