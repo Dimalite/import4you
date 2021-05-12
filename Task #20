@@ -1,0 +1,20 @@
+Title: Sea shipping custom costs changed to 27.50	
+Precondition:
+  I am Admin
+  UI/UX -- http://167.172.110.178/  
+Description:	
+  Проверка изменения значения "Inklaringskosten" на 27.50	
+		
+	Steps	
+1	Открыть Development UI/UX	
+2	Выбрать и кликнуть "kosten calculator"	
+3	Toggle "Luchtvracht" change "Zeevracht"	 
+4	"Inklaringskosten" must be 27.50	
+
+Expected Result:
+1 Открыто UI/UX
+2 Калькулятор открыт
+3 "Zeevracht" is set
+4 "Inklaringskosten"  is  27.50
+
+
