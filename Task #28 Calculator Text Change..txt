@@ -26,8 +26,10 @@ Expected Result:
 5 [Verzendkosten binnenland NL] --> To : [Uitleveringskosten]
 6  [Transportkosten China naar Nederland] to --> [Zeevrachtkosten China naar Nederland]
 7 Text [Extra HS] to --> [Aantal HS codes]
-
+_______________    _____   _____     ______    __ ____     ____  ____  ________  ______    ____      _____
 #28.1
+Description:
+Проверка добавлений инфо текстов и их изменений в зависимости от типа транспорта.
 
 Steps:
 1 Открыть Development UI/UX
