@@ -1,0 +1,46 @@
+#28
+Title:
+Calculator Text Change.
+
+Precondition:
+Development UI/UX     http://167.172.110.178/ 
+I am Admin.
+
+Description:
+Проверка добавлений инфо текстов и их изменений в зависимости от типа транспорта.
+
+Steps:
+1 Открыть Development UI/UX
+2 Выбрать и кликнуть "kosten calculator"
+3 "Zeevracht" is set
+4 Убедиться, что добавлен (i) с текстом к цене за CBM
+5 Убедиться, что изменен [Verzendkosten binnenland NL] --> To : [Uitleveringskosten]
+6 Убедится, что  [Transportkosten China naar Nederland] to --> [Zeevrachtkosten China naar Nederland]
+7 Убедиться, что TEXT CHANGE FROM [ Extra HS] to --> [Aantal HS codes]
+
+Expected Result:
+1 Ui/Ux is open
+2 Calculator is open
+3 Zeevracht is set
+4 Добавлен (i) с текстом к цене за CBM у водных перевозок
+5 [Verzendkosten binnenland NL] --> To : [Uitleveringskosten]
+6  [Transportkosten China naar Nederland] to --> [Zeevrachtkosten China naar Nederland]
+7 Text [Extra HS] to --> [Aantal HS codes]
+
+#28.1
+
+Steps:
+1 Открыть Development UI/UX
+2 Выбрать и кликнуть "kosten calculator"
+3 "Luchtvracht" is set
+4 Убедиться, что  [Verzendkosten binnenland NL] --> To : [Uitleveringskosten]
+5 Убедится, что  [Transportkosten China naar Nederland] to --> [Luchtvrachtkosten China naar Nederland]
+6 Убедиться, что TEXT CHANGE FROM [ Extra HS] to --> [Aantal HS codes]
+
+Expected Result:
+1 Ui/Ux is open
+2 Calculator is open
+3 "Luchtvracht" is set
+4 [Verzendkosten binnenland NL] --> To : [Uitleveringskosten]
+5  [Transportkosten China naar Nederland] to --> [Luchtvrachtkosten China naar Nederland]
+6 Text [ Extra HS] to --> [Aantal HS codes]

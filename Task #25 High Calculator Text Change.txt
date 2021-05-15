@@ -1,0 +1,28 @@
+#25
+Title:
+High Calculator Text Change 
+
+Precondition:
+Development UI/UX     http://167.172.110.178/ 
+I am Admin.
+
+Description:
+Проверка заданного текста: для Shenzhen --- [Prijs per kilogram] и [ Wij hanteren maandelijkse tarievven, hierop is de vluchtdatum van het vliegtuig van toepassing. ]
+                                                        для Shanghai --- [Geschatte prijs per kilogram] и [De tarieven vanuit Shanghai zijn aan verandering onderhevig. Dit is meest accurate indicatie.]
+Steps:
+1 Открыть Development UI/UX
+2 Выбрать и кликнуть "kosten calculator"
+3 Shenzhen is set/Убедиться, что текст [Geschatte prijs per kilogram] --> Должен быть [Prijs per kilogram]
+4 Убедится на наличие инфо текста  [ Wij hanteren maandelijkse tarievven, hierop is de vluchtdatum van het vliegtuig van toepassing. ]
+5 Shanghai is set/Убедиться, что текст [Geschatte prijs per kilogram]
+6 Убедится на наличие инфо текста  [De tarieven vanuit Shanghai zijn aan verandering onderhevig. Dit is meest accurate indicatie.]
+
+
+Expected Result:
+1 Открыто UI
+2 Калькулятор открыт
+3 Текст изменен на [Prijs per kilogram]
+4 Заданный инфо текст добавлен
+5 Shanghai is set/Текст заданный
+6 Текст заданный
+

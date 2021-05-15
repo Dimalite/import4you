@@ -1,0 +1,32 @@
+#38
+Title:
+Add function to CBM calculator seafreight
+
+Precondition:
+Development UI/UX     http://167.172.110.178/ 
+I am Admin.
+
+Description:
+When the result (cmb) is greater than 10 -> a pop-up window appears 	
+Text: [Vanaf een volume van boven de 10 CBM kan je een op maat zeevrachttarief ontvangen. Nima's contact information met at the door te mailen naar contact@import4you.nl]	
+
+Steps:
+1 Открыть Development UI/UX
+2 Выбрать и кликнуть "kosten calculator"
+3 Toggle "Luchtvracht" change "Zeevracht"
+4 В поле CBM выставить  значение  [ 1 ]
+5 В поле CBM выставить  значение  [ 9 ]
+6 В поле CBM выставить  значение  [ 10 ]
+7 В поле CBM выставить  значение  [ 11 ]
+8 В поле CBM выставить  значение  [ 21 ]
+
+Expected Result:
+1 Открыто UI
+2 Калькулятор открыт
+3 "Zeevracht" is set
+4 Калькулятор верно вычислил сумму
+5 Калькулятор верно вычислил сумму
+6 Калькулятор верно вычислил сумму
+7 Верху над полями появилось сообщение с заданным уведомлением
+8 Верху над полями появилось сообщение с заданным уведомлением 
+

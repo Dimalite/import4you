@@ -1,0 +1,27 @@
+#20
+Title:
+Custom costs for sea shipping can be changed to €27,50	
+
+Precondition:
+I am Admin
+UI/UX -- http://167.172.110.178/  
+
+Description:	
+Проверка изменения значения "Inklaringskosten" на 27.50
+Изменение текста Geschatte prijs per CBM на Prijs per CBM со значением  205.00
+		
+Steps:	
+1 Открыть Development UI/UX	
+2 Выбрать и кликнуть "kosten calculator"	
+3 Toggle "Luchtvracht" change "Zeevracht"	 
+4 "Inklaringskosten" must be 27.50	
+5 Prijs per CBM must be 205.00
+
+Expected Result:
+1 Открыто UI/UX
+2 Калькулятор открыт
+3 "Zeevracht" is set
+4 "Inklaringskosten"  is  27.50
+5 Тект изменен на Prijs per CBM со значением  205.00
+
+

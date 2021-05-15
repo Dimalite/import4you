@@ -1,0 +1,24 @@
+#27
+Title:
+Add current month text to the calculator
+
+Precondition:
+Development UI/UX     http://167.172.110.178/ 
+I am Admin.
+
+Description:
+Проверка на наличия надписи текущего месяца справа от всех полей
+в калькуляторе. 
+
+Steps:
+1 Открыть Development UI/UX
+2 Выбрать и кликнуть "kosten calculator"
+3 Убедиться в наличии надписи текущего месяца справа от всех полей
+
+Expected Result:
+1 Открыто UI
+2 Калькулятор открыт
+3 Название текущего месяца отображено справа от всех полей.
+
+
+
